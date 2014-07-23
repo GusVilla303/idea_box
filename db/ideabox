@@ -4,12 +4,12 @@ ideas:
   description: Sandwich
 - title: Drink
   description: Water
-- title: Movie
+- title: Movie New
   description: Godfather, Pt. 2
   rank: 3
 - title: Defeat the Heat
   description: 'Stay indoors! '
-  rank: 1
+  rank: 4
 - title: Dinner
   description: Pizza!
-  rank: 2
+  rank: 3
