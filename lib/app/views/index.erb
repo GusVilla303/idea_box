@@ -1,30 +1,15 @@
   <h1 align="center"> A Work-In-Progress IdeaBox</h1>
 
   <h3 align="center">Existing Ideas</h3>
+  <%= erb :idea_form %>
 
-  <form align="center" action='/' method='POST'>
-    <p>
-    Your Idea:
-    </p>
-    <input type='text' name='idea[title]'/><br/>
-    <textarea name='idea[description]'></textarea><br/>
-    <input type='submit'/>
-  </form>
-
-<div id="list">
+<div class="list">
   <ul>
     <% ideas.each do |idea| %>
       <li>
         <%= idea.title %><br/>
         <%= idea.description %>
-        <form action='/<%= idea.id %>/like' method='POST' style="display: inline">
-          <input type='submit' value="+"/>
-        </form>
-        <a href="/<%= idea.id %>/edit">Edit</a>
-        <form action='/<%= idea.id %>' method='POST'>
-          <input type="hidden" name="_method" value="DELETE">
-          <input type='submit' value="delete"/>
-        </form>
+        <%= erb :idea_actions, locals: {idea: idea} %>
       </li>
     <% end %>
   </ul>
