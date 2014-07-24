@@ -2,21 +2,14 @@
 ideas:
 - title: Lunch
   description: Sandwich
-- title: Drink
-  description: Water
 - title: Movie New
   description: Godfather, Pt. 2
   rank: 3
 - title: Defeat the Heat
   description: 'Stay indoors! '
   rank: 4
-- title: Mexican Dinner
-  description: Mexican Pizza!
-  rank: 1
 - title: Idea_Box Extension
   description: Mobile App
   rank: 1
-- title: Thursday's Idea
-  description: Horacio's idea
 - title: Background Color
   description: Light Blue (rgb:140, 202, 242)

@@ -1,8 +1,8 @@
-  <h1> A Work-In-Progress IdeaBox</h1>
+  <h1 align="center"> A Work-In-Progress IdeaBox</h1>
 
-  <h3>Existing Ideas</h3>
+  <h3 align="center">Existing Ideas</h3>
 
-  <form action='/' method='POST'>
+  <form align="center" action='/' method='POST'>
     <p>
     Your Idea:
     </p>
@@ -11,6 +11,7 @@
     <input type='submit'/>
   </form>
 
+<div id="list">
   <ul>
     <% ideas.each do |idea| %>
       <li>
@@ -27,3 +28,4 @@
       </li>
     <% end %>
   </ul>
+</div>
