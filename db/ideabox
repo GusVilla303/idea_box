@@ -10,6 +10,13 @@ ideas:
 - title: Defeat the Heat
   description: 'Stay indoors! '
   rank: 4
-- title: Dinner
-  description: Pizza!
-  rank: 3
+- title: Mexican Dinner
+  description: Mexican Pizza!
+  rank: 1
+- title: Idea_Box Extension
+  description: Mobile App
+  rank: 1
+- title: Thursday's Idea
+  description: Horacio's idea
+- title: Background Color
+  description: Light Blue (rgb:140, 202, 242)

@@ -1,15 +1,15 @@
-    <h1>IdeaBox</h1>
+  <h1> A Work-In-Progress IdeaBox</h1>
 
-    <h3>Existing Ideas</h3>
+  <h3>Existing Ideas</h3>
 
-    <form action='/' method='POST'>
-      <p>
-      Your Idea:
-      </p>
-      <input type='text' name='idea[title]'/><br/>
-      <textarea name='idea[description]'></textarea><br/>
-      <input type='submit'/>
-    </form>
+  <form action='/' method='POST'>
+    <p>
+    Your Idea:
+    </p>
+    <input type='text' name='idea[title]'/><br/>
+    <textarea name='idea[description]'></textarea><br/>
+    <input type='submit'/>
+  </form>
 
   <ul>
     <% ideas.each do |idea| %>

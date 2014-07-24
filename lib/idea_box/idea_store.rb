@@ -16,7 +16,7 @@ class IdeaStore
       database['ideas'] << data
     end
   end
-  
+
   def self.all
     ideas = []
     raw_ideas.each_with_index do |data, i|
@@ -44,13 +44,13 @@ class IdeaStore
 
   def self.find_raw_idea(id)
     database.transaction do
-    database['ideas'].at(id)
+      database['ideas'].at(id)
     end
   end
 
   def self.update(id, data)
     database.transaction do
-    database['ideas'][id] = data
+      database['ideas'][id] = data
     end
   end
 end
